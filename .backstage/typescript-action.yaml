@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: typescript-action
+  annotations:
+    github.com/project-slug: pats/dotenvx-action
+  tags:
+    - library
+    - nodejs
+    - frontend
+    - codesnoop
+spec:
+  type: library
+  owner: actions-oss-maintainers
+  lifecycle: production
+  system: dotenvx-action
